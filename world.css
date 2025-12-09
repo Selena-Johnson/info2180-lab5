@@ -1,1 +1,129 @@
 /* Add your own styles */
+
+/* Base Layout */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f6f9;
+    color: #333;
+}
+
+/*  Header  */
+header {
+    background: #3d4657;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #00000040;
+}
+
+/*  Main Container  */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Search Controls */
+#controls {
+    margin-bottom: 25px;
+}
+
+#controls label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#controls input[type="search"] {
+    padding: 10px 12px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+#controls input[type="search"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px #4a90e266;
+}
+
+/*  Buttons */
+#controls button {
+    padding: 10px 16px;
+    font-size: 14px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.2s;
+}
+
+#lookup {
+    background: #21b57d;
+}
+
+#lookup:hover {
+    background: #1e9f6e;
+}
+
+#lookup-cities {
+    background: #4a90e2;
+}
+
+#lookup-cities:hover {
+    background: #3a78c0;
+}
+
+
+#result {
+    margin-top: 20px;
+}
+
+
+#result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px #00000020;
+}
+
+#result th,
+#result td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#result th {
+    background: #eef1f5;
+    font-weight: 600;
+}
+
+#result tr:nth-child(even) {
+    background: #fafafa;
+}
+
+#result tr:last-child td {
+    border-bottom: none;
+}
+
+
+#result p {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #00000015;
+}
